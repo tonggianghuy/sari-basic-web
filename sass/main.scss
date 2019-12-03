@@ -1,15 +1,15 @@
-@import "./vendors/boostraps/bootstrap-reboot.scss";
-@import "./vendors/boostraps/bootstrap-grid.scss";
+@import './vendors/boostraps/bootstrap-reboot.scss';
 // abstracts
-
+@import './abstracts/variable';
 // base
-
+@import './base/base';
+@import './base/typography';
 // components
-
+@import './components/titleSection';
+@import './components/card';
+@import './components/whyCard';
 // layout
-
 // pages
-
-//vendors
-
+// vendors
 // Bootstrap
+@import './vendors/boostraps/grid';

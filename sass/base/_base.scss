@@ -1,0 +1,10 @@
+@import '../vendors/boostraps/mixins/image';
+.main {
+  font-family: 'Be Vietnam', sans-serif;
+}
+img {
+  @include img-fluid;
+}
+section {
+  margin-bottom: 7.5rem;
+}
