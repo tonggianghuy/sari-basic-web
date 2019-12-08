@@ -1,0 +1,122 @@
+.section-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.ads-body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+    margin-top: 85px;
+}
+
+
+
+.header {
+    position: relative;
+    height: 48.9375rem;
+
+    &-info {
+        padding-top: 6.9375rem;
+        z-index: 1200;
+
+
+        &_body {
+            color: $body-color;
+        }
+
+        &_body {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        &_mobi {
+            display: none;
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .ads-body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header {
+        height: 34.125rem;
+
+        &-info {
+            padding-top: 3.5rem;
+        }
+
+        &-img {
+            display: none;
+
+            &_mobi {
+                position: absolute;
+                top: 0;
+                right: 0;
+                display: unset;
+                transition: 1s;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header {
+        &-img {
+            width: 68%;
+            object-fit: cover;
+            height: 80%;
+            object-position: left;
+            transition-duration: 1s;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header {
+        &-img {
+            width: 60%;
+            object-fit: cover;
+            height: 80%;
+            object-position: left;
+
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header {
+        &-img {
+            width: 60%;
+            object-fit: cover;
+            height: 80%;
+            object-position: left;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .header {
+        &-img {
+            transition-duration: 1s;
+        }
+    }
+}

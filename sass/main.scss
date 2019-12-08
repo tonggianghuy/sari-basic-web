@@ -1,15 +1,17 @@
 @import './vendors/boostraps/bootstrap-reboot.scss';
+
 // abstracts
 @import './abstracts/variable';
 // base
 @import './base/base';
 @import './base/typography';
 // components
-@import './components/titleSection';
 @import './components/card';
 @import './components/whyCard';
 // layout
+@import './layout/footer';
 // pages
+@import './pages/home';
 // vendors
 // Bootstrap
 @import './vendors/boostraps/grid';

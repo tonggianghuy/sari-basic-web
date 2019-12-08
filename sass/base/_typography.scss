@@ -1,59 +1,262 @@
 .text-0 {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .text-1 {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .text-2 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .text-3 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .text-5 {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .text-7 {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .text-body_16 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .text-body_14 {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .text-button {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .text-caption_14 {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .text-caption_12 {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .text-special {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .text-0 {
+    font-size: 2rem;
+  }
+
+  .text-1 {
+    font-size: 1.5rem;
+  }
+
+  .text-2 {
+    font-size: 1.5rem;
+  }
+
+  .text-3 {
+    font-size: 1.25rem;
+  }
+
+  .text-5 {
+    font-size: 1rem;
+  }
+
+  .text-7 {
+    font-size: 0.75rem;
+  }
+
+  .text-body_16 {
+    font-size: 1rem;
+  }
+
+  .text-body_14 {
+    font-size: 0.875rem;
+  }
+
+  .text-button {
+    font-size: 1rem;
+  }
+
+  .text-caption_14 {
+    font-size: 0.875rem;
+  }
+
+  .text-caption_12 {
+    font-size: 10.75rem;
+  }
+
+  .text-special {
+    font-size: 0.875rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .text-0 {
+    font-size: 2rem;
+  }
+
+  .text-1 {
+    font-size: 1.5rem;
+  }
+
+  .text-2 {
+    font-size: 1.5rem;
+  }
+
+  .text-3 {
+    font-size: 1.25rem;
+  }
+
+  .text-5 {
+    font-size: 1rem;
+  }
+
+  .text-7 {
+    font-size: 0.75rem;
+  }
+
+  .text-body_16 {
+    font-size: 1rem;
+  }
+
+  .text-body_14 {
+    font-size: 0.875rem;
+  }
+
+  .text-button {
+    font-size: 1rem;
+  }
+
+  .text-caption_14 {
+    font-size: 0.875rem;
+  }
+
+  .text-caption_12 {
+    font-size: 10.75rem;
+  }
+
+  .text-special {
+    font-size: 0.875rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .text-0 {
+    font-size: 2rem;
+  }
+
+  .text-1 {
+    font-size: 1.5rem;
+  }
+
+  .text-2 {
+    font-size: 1.5rem;
+  }
+
+  .text-3 {
+    font-size: 1.25rem;
+  }
+
+  .text-5 {
+    font-size: 1rem;
+  }
+
+  .text-7 {
+    font-size: 0.75rem;
+  }
+
+  .text-body_16 {
+    font-size: 1rem;
+  }
+
+  .text-body_14 {
+    font-size: 0.875rem;
+  }
+
+  .text-button {
+    font-size: 1rem;
+  }
+
+  .text-caption_14 {
+    font-size: 0.875rem;
+  }
+
+  .text-caption_12 {
+    font-size: 10.75rem;
+  }
+
+  .text-special {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .text-0 {
+    font-size: 2rem;
+  }
+
+  .text-1 {
+    font-size: 1.5rem;
+  }
+
+  .text-2 {
+    font-size: 1.5rem;
+  }
+
+  .text-3 {
+    font-size: 1.25rem;
+  }
+
+  .text-5 {
+    font-size: 1rem;
+  }
+
+  .text-7 {
+    font-size: 0.75rem;
+  }
+
+  .text-body_16 {
+    font-size: 1rem;
+  }
+
+  .text-body_14 {
+    font-size: 0.875rem;
+  }
+
+  .text-button {
+    font-size: 1rem;
+  }
+
+  .text-caption_14 {
+    font-size: 0.875rem;
+  }
+
+  .text-caption_12 {
+    font-size: 10.75rem;
+  }
+
+  .text-special {
+    font-size: 0.875rem;
+  }
 }

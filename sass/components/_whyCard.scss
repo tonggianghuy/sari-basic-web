@@ -1,10 +1,59 @@
-.why-card {
+.what-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5625rem;
+
   &_title {
     margin-bottom: 1rem;
+    text-align: left;
   }
+
+  &_body {
+    text-align: left;
+    color: #434343;
+    letter-spacing: -0.01em;
+  }
+
   &_img {
     position: absolute;
     top: -30%;
-    right: -25%;
+    right: -15%;
+    width: 50%;
+  }
+
+  &_left {
+    text-align: left;
+  }
+
+  &_right {
+    text-align: right;
   }
 }
+
+@media (max-width: 575.98px) {
+  .what-card {
+    &_img {
+      position: absolute;
+      top: -50px;
+      right: 0;
+      width: 50%;
+    }
+  }
+
+  .card-2 {
+    flex-direction: column-reverse;
+    margin: 5rem 0;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
