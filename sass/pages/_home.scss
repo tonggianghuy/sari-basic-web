@@ -5,6 +5,26 @@
     margin-bottom: 3rem;
 }
 
+.who {
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4rem;
+
+
+        &_title {
+            text-align: left;
+        }
+
+        &_arrow {
+            :first-child {
+                margin-right: 1.875rem;
+            }
+        }
+    }
+}
+
 .ads-body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
